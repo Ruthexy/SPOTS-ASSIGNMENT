@@ -55,7 +55,6 @@ function ImageList() {
               <img src={photo.icon} alt={photo.title} />
             </button>
           </div>
-          HELLO
         </div>
       ))}
       

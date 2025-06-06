@@ -17,7 +17,7 @@ function Home() {
       <Profile />
       <NewPostForm onAddPost={handleAddPost} />
       {posts.map((post, index) => (
-        <Images />
+        <ImageList />
       ))}
       <footer>2024 © Spots</footer>
     </div>
