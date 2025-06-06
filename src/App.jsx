@@ -3,8 +3,12 @@ import Home from "./pages/Home";
 import ImageList from "./ImageList";
 
 function App() {
-  return <Home />;
-  return <ImageList />;
+  return (
+    <div>
+      <Home/>
+      <ImageList/>
+    </div>
+  )
 }
 
 export default App;
