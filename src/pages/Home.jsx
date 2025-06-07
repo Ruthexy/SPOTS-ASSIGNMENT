@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Profile from "../components/Profile";
 import NewPostForm from "../components/NewPostForm";
-import ImageList from "./ImageList"
+import ImageList from "../ImageList"
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -16,10 +16,10 @@ function Home() {
       <Header />
       <Profile />
       <NewPostForm onAddPost={handleAddPost} />
-      {posts.map((post, index) => (
+      
         <ImageList />
-      ))}
-      <footer>2024 © Spots</footer>
+      
+      
     </div>
   );
 }
