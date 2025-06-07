@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
+
 import "./App.css";
 import image1 from "../public/images/1.svg"
 import image2 from "../public/images/2.svg";
@@ -178,7 +177,7 @@ function App() {
               <footer className="card-footer">
                 <span>{card.title}</span>
                 {/* <Likeicon/> */}
-                {/* <FontAwesomeIcon icon="fa-solid fa-pen" /> */}
+                
               </footer>
             </article>
           ))}
